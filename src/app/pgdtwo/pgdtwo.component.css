@@ -1,0 +1,84 @@
+.pgtwo{
+  display: flex;
+}
+
+.services{
+  padding: 10px;
+  height:fit-content;
+  background-color: rgb(159, 108, 83);
+  width: 45%;
+  margin-top: 10px;
+}
+
+.services h5{
+  color: rgb(205, 205, 190);
+  font-family: fantasy;
+}
+
+.services h4{
+  color: rgb(205, 205, 190);
+  font-family: fantasy;
+  text-align: center;
+  text-decoration-line: underline;
+}
+/*------------- contact section --------*/
+.contact{
+  width: 55%;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: rgb(155, 149, 85);
+  padding: 10px;
+  text-align: center;
+}
+
+.contact h4{
+  color: rgb(205, 205, 190);
+  font-family: fantasy;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.contact a img{
+  width: 100px;
+
+}
+
+.contact a img:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+  .pgtwo{
+    display: block;
+  }
+
+  .contact{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .contact h4{
+
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .services{
+    width: 100%;
+  }
+  .services h4{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .services h5{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+}
